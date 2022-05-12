@@ -116,6 +116,9 @@ var e = true && false;
 console.log(e);
 
 //|| = "ou" - considera que qualquer valor seja true
-
+var ou = true || false;
+console.log(ou);
 
 //! = "não" - inverte o valor de true para false ou vice-versa
+var nao = !true;
+console.log(nao);
