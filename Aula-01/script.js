@@ -73,3 +73,49 @@ console.log(adicao);
 //subtração
 var subtracao = 2 - 1;
 console.log(subtracao);
+
+//multiplicação
+var multiplicacao = 2 * 3;
+console.log(multiplicacao);
+
+//divisão real
+var divisaoReal = 6 / 2;
+console.log(divisaoReal);
+
+//divisao inteira
+var divisaoInteira = 5 % 2;
+console.log(divisaoInteira);
+
+//potenciação
+var potenciacao = 2 ** 10;
+console.log(potenciacao);
+
+//Operadores Relacionais
+
+
+//maior que
+var maiorQue = 5 > 2;
+console.log(maiorQue);
+
+//menor que
+var menorQue = 5 < 2;
+console.log(menorQue);
+
+//maior ou igual a
+var maiorOuIgual = 5 >= 2;
+console.log(maiorOuIgual);
+
+//menor ou igual
+var menorOuIgual = 5 <= 2;
+console.log(menorOuIgual);
+
+//Operadores lógicos
+
+//&& = "e" - considera que todos os valores sejam true
+var e = true && false;
+console.log(e);
+
+//|| = "ou" - considera que qualquer valor seja true
+
+
+//! = "não" - inverte o valor de true para false ou vice-versa
