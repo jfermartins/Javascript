@@ -28,4 +28,26 @@ console.log(variavel);
 
 //let
 let variavel2 = 'Fernanda';
+variavel2 = 'Martins';
 console.log(variavel2);
+
+//const
+const constante = 'Fernanda';
+console.log(constante);
+
+//Escopo
+
+//escopo global
+//quando a variável é declarada fora de qualquer bloco, sua visibilidade fica disponível em todo código
+
+//escopo local
+//quando a variável é declarada dentro de um bloco, sua visibilidade pode ficar disponível ou não
+
+var escopoGlobal = 'global';
+console.log(escopoGlobal);
+
+function escopoLocal() {
+    let escopoLocalInterno = 'local';
+}
+
+console.log(escopoLocalInterno);
