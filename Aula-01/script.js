@@ -48,6 +48,28 @@ console.log(escopoGlobal);
 
 function escopoLocal() {
     let escopoLocalInterno = 'local';
+    console.log(escopoLocalInterno);
 }
 
-console.log(escopoLocalInterno);
+escopoLocal();
+
+//Atribuição
+var atribuicao = 'Jane';
+
+//Comparação
+var comparacao = '0' == 0;
+console.log(comparacao);
+
+//Comparação idêntica
+var comparacaoIdentica = '0' === 0;
+console.log(comparacaoIdentica);
+
+//Operadores aritméticos, relacionais e lógicos
+
+//adição
+var adicao = 1 + 1;
+console.log(adicao);
+
+//subtração
+var subtracao = 2 - 1;
+console.log(subtracao);
