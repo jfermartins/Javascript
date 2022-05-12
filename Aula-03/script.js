@@ -11,7 +11,7 @@ console.log(array1);
 // como acessar o índice de um array
 console.log(array[0]);
 
-// manipulando um array
+// Manipulando um array
 
 //forEach - realiza uma função para cada item do array
 array.forEach(function(item, index){console.log(item, index);})
@@ -54,8 +54,8 @@ console.log(object);
 // assim como arrays as propriedades de objetos podem guardar quaisquer valores
 let object1 = { string: 'string', number: 1, boolean: true, array: ['array'], objectInterno: { objetoInterno: 'objeto Interno' } };
 
-/* // como acessar propriedades de objetos
-// usando ponto "."  */
+// como acessar propriedades de objetos
+// usando ponto "."
 console.log(object.objectInterno);
 
 // manipulando objeto
