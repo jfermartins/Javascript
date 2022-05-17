@@ -66,7 +66,7 @@ function calculadora() {
         }
     } 
 
-    /* // escolhendo operação
+    // escolhendo operação
     // usand if && else
     if (operacao == 1) {
         soma();
@@ -80,7 +80,7 @@ function calculadora() {
         divisaoInteira();
     } else if (operacao == 6) {
         potenciacao();
-    } */
+    } 
 
 /*     // usando switch case
     switch (operacao) {
